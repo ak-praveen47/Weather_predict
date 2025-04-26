@@ -1,0 +1,104 @@
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right,#90ade9,#8bd668);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.weather-app {
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    background: linear-gradient(to right,#bbc8e4,#a8bd9e)
+    border-radius : 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.3);
+
+
+}
+.weather-app:hover{
+    box-shadow: 0px 5px 10px 5px #6b6868;
+    transition: 0.5s ease;
+}
+.weather-app h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #df1212;
+}
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.search-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+.search-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid  #df1212;
+    color: #df1212;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #df1212;
+    transform: scale(1.1);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+    border: none;
+
+}
+.weather-info {
+    display: none;
+    margin-top: 20px;
+}
+.temperature {
+    font-size: 48px;
+    color: #df1212;
+    font-weight: bold;
+    margin: 10px 0;
+    border: 1px solid #df1212;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 50px;
+}
+.weather-icon {
+    width: 180px;
+    height: 180px;
+    vertical-align: middle;
+}
+.location {
+    font-size: 24px;
+    margin-top: 5px;
+    color: #df1212;
+}
+.description {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+    color: #df1212;
+}
+.extra-info {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 16px;
+    color:#c75656;
+    display: flex;
+    gap: 20px;
+    
+}
+.extra-info p {
+    margin: 0;
+}
