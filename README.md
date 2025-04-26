@@ -1,10 +1,4 @@
-# CODTECH TASK-2
-**Name:** AKASH.D<br>
-**Company:** CODTECH IT SOLUTIONS<br>
-**InternID:** CT6WTDS311<br>
-**Domain:** Full Stack Development<br>
-**Duration:** July 10th to August 25th<br>
-**Mentor:** Muzammhil Ahmed
+
 # Weather App
 
 This is a simple Weather App that fetches current weather data from an API and displays it for a given city. The app is built using HTML, CSS, and JavaScript.
@@ -33,11 +27,6 @@ This is a simple Weather App that fetches current weather data from an API and d
 - A modern web browser.
 - Basic knowledge of HTML, CSS, and JavaScript.
 
-### Installation
-
-1. Clone the repository:
-   ```bashhttps://github.com/Akashdhasarathan/CODTECH-Task2.git
-   
 
 ## Navigate to the project directory:
 - cd weather-app
